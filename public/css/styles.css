@@ -16,7 +16,7 @@ input {
 
 body {
     line-height: 1.4;
-    color: #000000;
+    color:rgb(255, 248, 249);
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-image: url('https://i.pinimg.com/originals/7f/4f/ea/7f4feade6fced13c309276e4ed631616.jpg');
 }
@@ -29,19 +29,19 @@ label {
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
-    color: rgb(0, 0, 0);
+    color: rgb(235, 227, 227);
 }
 
 input {
     border: 1.2px solid #000000;
     padding: 15px;
-    outline:black;
+    outline:rgb(14, 11, 11);
 }
 
 button {
     cursor: pointer;
     padding: 12px;
-    background: #000000;
+    background: #197383;
     border: none;
     color: rgb(252, 247, 247);
     font-size: 17px;
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-    background: #726c6c;
+    background: #209dad;
 }
 
 button:disabled {
@@ -60,7 +60,7 @@ button:disabled {
 /* Join Page Styles */
 
 .centered-form {
-    background: #6cb5c0;
+    background: #666666;
     width: 100vw;
     height: 100vh;   
     display: flex;
@@ -69,7 +69,7 @@ button:disabled {
 }
 
 .centered-form__box {
-    box-shadow: 0px 10px 27px 1px #969696;
+    box-shadow: 0px 10px 27px 1px #fff7f7;
     background: #000000;
     padding: 24px;
     width: 250px;
@@ -119,12 +119,12 @@ button:disabled {
 
 .message {
     margin-bottom: 25px;   
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .message__name {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 18px;
     margin-right: 8px;
 }
 
